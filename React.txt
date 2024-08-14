@@ -1,0 +1,37 @@
+Components come in two types, Class components and Function components 
+
+Functionbased-------how to write
+const News=()=>{
+    dsfdsgreg;
+}
+
+Q]Differencr betn fun based and class based comp?
+Q] React component life cycle?
+Ans- What happen when we use component.
+*]Mounting-when component come to our website or we called component bound in our web site
+*]Update- our component wiil change
+*]Unmount-don't exist component
+
+Q]Method in React?
+Ans- 
+1. rendor() mehotd - it is required for class based comp. to render the dom.
+                 - rendor method should be pure.
+2. componentDidMount() method - it run after component output has been render.
+                - here we fatch API.
+                - here we set state
+3. componentDidUpdate() method - when we update our comp.(prop change or state change) then we use this method
+4. componentWillMount() method - it is use just before destroy the comp.
+
+NOTE-
+-------------------------
+HOOKS-by the use of hooks what ever we use the features in class based that component
+      we use in function based component also.
+     -by the use of hooks without creating class we can write react features.
+     -some hooks are= useState-here u update the state and also set the initail value of state
+                      useEffect-side effect
+                      useContext-
+                      useRef- it return mutabale reference obj under which (dot).correcnt property available  
+
+NOTE
+-------------------------------
+To constant/fix the Nav bar we use-fixed-top 
